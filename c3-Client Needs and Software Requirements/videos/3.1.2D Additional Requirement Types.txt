@@ -1,0 +1,60 @@
+[MUSIC] The next type of requirement, which we
+will cover, is an External Interface. The idea behind this
+requirement is simple. Often, your product belongs
+to a larger system. External interfaces simply outline
+where the product is situated. We don't mean this in terms of
+physical location, but in terms of where the product sits logically among
+other entities outside the product. The interfaces also describe the way
+in which these connections are made. Through media, protocols, formats,
+and levels of a compatibility. Simply put,
+this just means that an external interface shows how the product itself relates
+to something else in the system. Say you had a software application, which
+displayed information to an end user and accessed a remote database. The application sets between
+the database and the end user, and has an external interface to each one. The external interfaces will show
+the protocols which the application needs to interact with the database, as well as how the information
+should be presented to the user. External interfaces are often
+identified on data flow diagrams. A data flow diagram is one which shows
+all the components of a product in one place and makes explicit reference
+to how data is passed to and from outside entities in the whole system. External interfaces, then, are just
+a description of the logical placement of your product among other
+entities within an entire system. Don't confuse external interfaces with
+the physical location of the product. This is actually a separate type of
+requirement called the product's Physical Setting. Physical Setting Requirements describe
+how the product should be designed around its physical environment. For example,
+if you were to develop a GPS tracker for construction equipment in the Sahara,
+you would want to make sure that it can withstand extreme heat,
+dust, noise, and vibrations. If you were developing this system for
+applications in Antarctica, then you would want the product
+to withstand extreme cold. All of these are considerations made when
+specifying physical setting requirements. Which of the following would be considered
+an external interface requirement? A. The product must be able to communicate
+to a customer database and an ad server. B. The product must be able to remain
+on battery power for six hours. C. The product must be
+able to withstand impact from a drop of no less than fifty meters. Or D. The product must withstand
+full sunlight for ten hours per day. The answer is A. Remember, an external interface is
+a requirement which specifies how the product is to communicate or connect
+with other components of the system. By communicating with
+a customer database and an ad server, the product's external
+interfaces are being defined. Say you've specified all the requirements
+we talked about earlier. Is your development team capable of
+creating the product you designed? Knowing the answer to this
+question is very important. [SOUND] Development constraints
+outline the implementation technology, conventions, documentation, and
+the process which your team will use. [SOUND] They could also address
+things like, which devices or platforms the development team will
+support, or how much memory, bandwidth, or processing power they're limited to using. It's usually best to specify this
+later in the specification phase so that the product does not become limited
+in vision by available technology. Technology advances, therefore,
+so should the product. By discussing developing constraints last,
+you can avoid the possibility that you design prematurely with
+old technologies and abilities. In this lesson, we learned about the
+different types of requirements available to us,
+which can express our client's needs. Let's review. First, we talked about requirement types,
+which can influence your project. Those requirements are business
+requirements and business rules. Then, we talked about a few of
+the core requirement types. Those were our user requirements,
+functional requirements and non-functional requirements. Finally, we talked about a few
+requirements, which provide additional context for the eventual
+design and implementation of the product. Those are external interfaces,
+the physical product setting, and development constraints. Next, we'll talk about how we can
+manage changing requirements and control our product's scope.

@@ -1,0 +1,352 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.442
+[MUSIC]
+
+2
+00:00:05.442 --> 00:00:09.720
+The next type of requirement, which we
+will cover, is an External Interface.
+
+3
+00:00:10.890 --> 00:00:13.690
+The idea behind this
+requirement is simple.
+
+4
+00:00:13.690 --> 00:00:16.620
+Often, your product belongs
+to a larger system.
+
+5
+00:00:16.620 --> 00:00:21.320
+External interfaces simply outline
+where the product is situated.
+
+6
+00:00:21.320 --> 00:00:24.630
+We don't mean this in terms of
+physical location, but in terms of
+
+7
+00:00:24.630 --> 00:00:29.010
+where the product sits logically among
+other entities outside the product.
+
+8
+00:00:30.540 --> 00:00:34.400
+The interfaces also describe the way
+in which these connections are made.
+
+9
+00:00:34.400 --> 00:00:38.850
+Through media, protocols, formats,
+and levels of a compatibility.
+
+10
+00:00:40.050 --> 00:00:44.120
+Simply put,
+this just means that an external interface
+
+11
+00:00:44.120 --> 00:00:48.080
+shows how the product itself relates
+to something else in the system.
+
+12
+00:00:49.870 --> 00:00:54.140
+Say you had a software application, which
+displayed information to an end user and
+
+13
+00:00:54.140 --> 00:00:55.580
+accessed a remote database.
+
+14
+00:00:56.750 --> 00:01:01.050
+The application sets between
+the database and the end user, and
+
+15
+00:01:01.050 --> 00:01:03.150
+has an external interface to each one.
+
+16
+00:01:04.820 --> 00:01:09.620
+The external interfaces will show
+the protocols which the application needs
+
+17
+00:01:09.620 --> 00:01:11.850
+to interact with the database,
+
+18
+00:01:11.850 --> 00:01:14.510
+as well as how the information
+should be presented to the user.
+
+19
+00:01:16.700 --> 00:01:20.829
+External interfaces are often
+identified on data flow diagrams.
+
+20
+00:01:22.230 --> 00:01:27.020
+A data flow diagram is one which shows
+all the components of a product in one
+
+21
+00:01:27.020 --> 00:01:32.030
+place and makes explicit reference
+to how data is passed to and
+
+22
+00:01:32.030 --> 00:01:34.580
+from outside entities in the whole system.
+
+23
+00:01:36.530 --> 00:01:40.910
+External interfaces, then, are just
+a description of the logical placement
+
+24
+00:01:40.910 --> 00:01:44.730
+of your product among other
+entities within an entire system.
+
+25
+00:01:46.670 --> 00:01:51.230
+Don't confuse external interfaces with
+the physical location of the product.
+
+26
+00:01:52.420 --> 00:01:55.680
+This is actually a separate type of
+requirement called the product's
+
+27
+00:01:55.680 --> 00:01:56.400
+Physical Setting.
+
+28
+00:01:57.940 --> 00:02:01.900
+Physical Setting Requirements describe
+how the product should be designed
+
+29
+00:02:01.900 --> 00:02:03.470
+around its physical environment.
+
+30
+00:02:04.620 --> 00:02:07.830
+For example,
+if you were to develop a GPS tracker for
+
+31
+00:02:07.830 --> 00:02:11.730
+construction equipment in the Sahara,
+you would want to make sure that it can
+
+32
+00:02:11.730 --> 00:02:16.010
+withstand extreme heat,
+dust, noise, and vibrations.
+
+33
+00:02:17.410 --> 00:02:21.360
+If you were developing this system for
+applications in Antarctica,
+
+34
+00:02:21.360 --> 00:02:23.609
+then you would want the product
+to withstand extreme cold.
+
+35
+00:02:25.020 --> 00:02:29.270
+All of these are considerations made when
+specifying physical setting requirements.
+
+36
+00:02:30.490 --> 00:02:34.350
+Which of the following would be considered
+an external interface requirement?
+
+37
+00:02:35.940 --> 00:02:42.920
+A. The product must be able to communicate
+to a customer database and an ad server.
+
+38
+00:02:42.920 --> 00:02:48.880
+B. The product must be able to remain
+on battery power for six hours.
+
+39
+00:02:50.590 --> 00:02:54.450
+C. The product must be
+able to withstand impact
+
+40
+00:02:54.450 --> 00:02:57.780
+from a drop of no less than fifty meters.
+
+41
+00:02:57.780 --> 00:03:02.610
+Or D. The product must withstand
+full sunlight for ten hours per day.
+
+42
+00:03:03.980 --> 00:03:06.010
+The answer is A.
+
+43
+00:03:06.010 --> 00:03:11.030
+Remember, an external interface is
+a requirement which specifies how
+
+44
+00:03:11.030 --> 00:03:15.740
+the product is to communicate or connect
+with other components of the system.
+
+45
+00:03:17.570 --> 00:03:20.250
+By communicating with
+a customer database and
+
+46
+00:03:20.250 --> 00:03:24.229
+an ad server, the product's external
+interfaces are being defined.
+
+47
+00:03:25.770 --> 00:03:29.600
+Say you've specified all the requirements
+we talked about earlier.
+
+48
+00:03:29.600 --> 00:03:32.580
+Is your development team capable of
+creating the product you designed?
+
+49
+00:03:33.790 --> 00:03:36.230
+Knowing the answer to this
+question is very important.
+
+50
+00:03:37.640 --> 00:03:41.861
+[SOUND] Development constraints
+outline the implementation technology,
+
+51
+00:03:41.861 --> 00:03:46.082
+conventions, documentation, and
+the process which your team will use.
+
+52
+00:03:46.082 --> 00:03:49.669
+[SOUND] They could also address
+things like, which devices or
+
+53
+00:03:49.669 --> 00:03:54.592
+platforms the development team will
+support, or how much memory, bandwidth, or
+
+54
+00:03:54.592 --> 00:03:57.357
+processing power they're limited to using.
+
+55
+00:03:57.357 --> 00:04:01.593
+It's usually best to specify this
+later in the specification phase so
+
+56
+00:04:01.593 --> 00:04:06.280
+that the product does not become limited
+in vision by available technology.
+
+57
+00:04:07.560 --> 00:04:10.930
+Technology advances, therefore,
+so should the product.
+
+58
+00:04:12.250 --> 00:04:16.470
+By discussing developing constraints last,
+you can avoid the possibility
+
+59
+00:04:16.470 --> 00:04:19.600
+that you design prematurely with
+old technologies and abilities.
+
+60
+00:04:21.810 --> 00:04:25.420
+In this lesson, we learned about the
+different types of requirements available
+
+61
+00:04:25.420 --> 00:04:28.850
+to us,
+which can express our client's needs.
+
+62
+00:04:28.850 --> 00:04:29.400
+Let's review.
+
+63
+00:04:30.880 --> 00:04:34.750
+First, we talked about requirement types,
+which can influence your project.
+
+64
+00:04:35.840 --> 00:04:39.360
+Those requirements are business
+requirements and business rules.
+
+65
+00:04:40.670 --> 00:04:43.910
+Then, we talked about a few of
+the core requirement types.
+
+66
+00:04:45.010 --> 00:04:48.642
+Those were our user requirements,
+functional requirements and
+
+67
+00:04:48.642 --> 00:04:50.107
+non-functional requirements.
+
+68
+00:04:51.350 --> 00:04:54.550
+Finally, we talked about a few
+requirements, which provide
+
+69
+00:04:54.550 --> 00:04:58.880
+additional context for the eventual
+design and implementation of the product.
+
+70
+00:04:59.960 --> 00:05:03.698
+Those are external interfaces,
+the physical product setting, and
+
+71
+00:05:03.698 --> 00:05:05.250
+development constraints.
+
+72
+00:05:06.710 --> 00:05:10.510
+Next, we'll talk about how we can
+manage changing requirements and
+
+73
+00:05:10.510 --> 00:05:11.760
+control our product's scope.
