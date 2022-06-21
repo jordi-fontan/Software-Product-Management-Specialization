@@ -1,0 +1,318 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.392
+[MUSIC]
+
+2
+00:00:04.392 --> 00:00:08.610
+Another requirement type, which falls
+under the scope of the development team,
+
+3
+00:00:08.610 --> 00:00:10.210
+is a functional requirement.
+
+4
+00:00:11.710 --> 00:00:15.460
+A functional requirement is a behavior
+that the product should do or support.
+
+5
+00:00:16.530 --> 00:00:19.670
+They can be expressed with inputs and
+outputs and
+
+6
+00:00:19.670 --> 00:00:21.030
+a description of the behavior itself.
+
+7
+00:00:22.690 --> 00:00:25.030
+Imagine a client approaches
+you with a proposed project.
+
+8
+00:00:26.030 --> 00:00:29.860
+They want a mobile point of sale product,
+which takes credit card payments
+
+9
+00:00:29.860 --> 00:00:32.000
+through the client's
+proprietary credit card reader.
+
+10
+00:00:33.220 --> 00:00:36.670
+It then sends a receipt back to
+the user with the transaction details.
+
+11
+00:00:37.980 --> 00:00:41.600
+The client also mentions that this product
+should meet the highest standards of
+
+12
+00:00:41.600 --> 00:00:43.740
+security, as well as visual design.
+
+13
+00:00:45.420 --> 00:00:49.040
+Remember, functional requirements
+involve inputs and outputs.
+
+14
+00:00:50.100 --> 00:00:54.530
+So in this simple example, we have one
+input, the data from the credit card
+
+15
+00:00:54.530 --> 00:00:57.500
+reader, and one output,
+the receipt from the transaction.
+
+16
+00:00:58.700 --> 00:01:03.760
+So you could say the system must read
+data from the credit card reader and
+
+17
+00:01:03.760 --> 00:01:07.650
+the system must also send
+a transaction receipt to the end user.
+
+18
+00:01:09.050 --> 00:01:09.890
+Keep in mind that,
+
+19
+00:01:09.890 --> 00:01:13.530
+to keep things simple, we've removed
+quite a few functional requirements.
+
+20
+00:01:14.680 --> 00:01:18.150
+One might imagine that the system should
+take as input the transaction information
+
+21
+00:01:18.150 --> 00:01:19.390
+from the merchant.
+
+22
+00:01:19.390 --> 00:01:23.840
+Then, upon some confirmation action,
+the system should present the buyer
+
+23
+00:01:23.840 --> 00:01:27.690
+with information about the transaction and
+ultimately take their PIN information.
+
+24
+00:01:29.120 --> 00:01:33.730
+You could think of quite a few functional
+requirements in the scope of this example.
+
+25
+00:01:33.730 --> 00:01:35.980
+Requirements can also have
+a certain depth to them.
+
+26
+00:01:37.070 --> 00:01:38.460
+A functional requirement,
+
+27
+00:01:38.460 --> 00:01:43.570
+which states that a user should be able
+to pay using a PIN pad, is not specific.
+
+28
+00:01:43.570 --> 00:01:47.970
+This could be broken into a few deeper,
+more specific requirements,
+
+29
+00:01:47.970 --> 00:01:51.910
+like a user should be able to
+swipe a debit or credit card.
+
+30
+00:01:53.180 --> 00:01:57.970
+A user will be able to insert a credit
+card or debit card into a chip reader.
+
+31
+00:01:57.970 --> 00:02:00.540
+And a user will be able to enter their PIN
+
+32
+00:02:00.540 --> 00:02:02.150
+when their card has been swiped or
+inserted.
+
+33
+00:02:03.330 --> 00:02:06.800
+If you don't get specific enough, this
+could lead to problems in your planning.
+
+34
+00:02:08.210 --> 00:02:10.900
+You might think that you
+have very little work to do
+
+35
+00:02:10.900 --> 00:02:12.780
+when really you actually have quite a bit.
+
+36
+00:02:14.460 --> 00:02:18.290
+This is something into which I'll dive
+more in detail later in this course.
+
+37
+00:02:18.290 --> 00:02:20.489
+Just be aware that
+requirements have depth.
+
+38
+00:02:22.250 --> 00:02:24.890
+One way to represent
+functional requirements
+
+39
+00:02:24.890 --> 00:02:28.720
+is by using an information flow
+diagram like you see here.
+
+40
+00:02:30.640 --> 00:02:35.330
+Information flow diagrams give you a
+graphical way of displaying the data flow
+
+41
+00:02:35.330 --> 00:02:37.939
+and dependencies of all
+the system components.
+
+42
+00:02:39.160 --> 00:02:42.750
+Basically, this is just how
+individual components of the system
+
+43
+00:02:42.750 --> 00:02:43.500
+are stitched together.
+
+44
+00:02:44.920 --> 00:02:47.630
+This gives you an idea of how
+the system functions as a whole.
+
+45
+00:02:48.690 --> 00:02:52.150
+An information flow diagram
+provides the context
+
+46
+00:02:52.150 --> 00:02:54.790
+in which you can review
+the whole thing logically.
+
+47
+00:02:56.010 --> 00:02:59.210
+If you would like to learn more
+about information flow diagrams,
+
+48
+00:02:59.210 --> 00:03:00.349
+check out the course resources.
+
+49
+00:03:02.270 --> 00:03:06.820
+Imagine a scenario in which you're
+building a not-for-profit organization
+
+50
+00:03:06.820 --> 00:03:10.610
+that rebuilds bicycles for
+low-income commuters in your neighbourhood.
+
+51
+00:03:11.730 --> 00:03:13.620
+You receive bicycles from donors,
+
+52
+00:03:13.620 --> 00:03:16.690
+which are made of aluminum,
+as well as money to buy tools.
+
+53
+00:03:17.730 --> 00:03:20.890
+You then use these things to
+make the bikes work again and
+
+54
+00:03:20.890 --> 00:03:22.299
+deliver them to your customers.
+
+55
+00:03:23.670 --> 00:03:27.040
+Which of the following would be
+considered the functional inputs and
+
+56
+00:03:27.040 --> 00:03:28.840
+outputs of this organization?
+
+57
+00:03:30.440 --> 00:03:36.892
+A. Input: Donated bicycles and
+purchased tools, Output: Customers.
+
+58
+00:03:36.892 --> 00:03:45.050
+B. Input: Donated money,
+Output: Working bicycles.
+
+59
+00:03:45.050 --> 00:03:50.670
+C. Input: Donated money and
+bicycles, Output: Working bicycles.
+
+60
+00:03:50.670 --> 00:03:55.566
+Or D. Input: Aluminum from the bicycles,
+and donated money,
+
+61
+00:03:55.566 --> 00:03:57.840
+Output: Working bicycles.
+
+62
+00:03:59.310 --> 00:04:01.440
+The answer here is C.
+
+63
+00:04:01.440 --> 00:04:05.790
+The organization receives money and
+bicycles which it then repairs and
+
+64
+00:04:05.790 --> 00:04:07.650
+delivers to customers.
+
+65
+00:04:07.650 --> 00:04:10.090
+The inputs are donated bicycles and
+
+66
+00:04:10.090 --> 00:04:14.200
+money, because the tools are purchased
+using the money donated.
+
+67
+00:04:14.200 --> 00:04:17.910
+These tools are then part of the process
+which is used to fix the bicycles.
